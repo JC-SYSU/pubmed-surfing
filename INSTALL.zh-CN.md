@@ -39,6 +39,8 @@ go build -o pubmed-surfing ./cmd/pubmed-surfing
 
 ## 2. 发布归档（可选但推荐；macOS / Windows）
 
+预编译归档也会发布到 GitHub Releases，由 CI 从发布 tag 构建。下载本平台的归档后直接跳到第 3 节。下面的命令是在 macOS 或 Windows 上自己构建同样的归档：
+
 ```bash
 go run ./cmd/pubmed-surfingctl release
 ```

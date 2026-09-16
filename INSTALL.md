@@ -39,6 +39,8 @@ A blocking development server runs with `go run ./cmd/pubmed-surfing`. This sect
 
 ## 2. Release archives (optional but recommended; macOS / Windows)
 
+Prebuilt archives are also published to GitHub Releases, built by CI from the release tag. Download the archive for your platform and jump straight to section 3. The commands below build the same archives yourself on macOS or Windows:
+
 ```bash
 go run ./cmd/pubmed-surfingctl release
 ```
